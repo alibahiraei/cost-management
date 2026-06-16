@@ -7,7 +7,7 @@ from model.model import Base, Expense, Category
 # ساخت جدول‌ها (اگر نبود)
 Base.metadata.create_all(bind=engine)
 
-st.title("💰 Expense Manager")
+st.title("پروزه مدیریت هزینه ها ")
 
 session = SessionLocal()
 
