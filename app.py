@@ -8,7 +8,7 @@ from model.model import Base, Expense, Category
 Base.metadata.create_all(bind=engine)
 
 st.title("پروزه مدیریت هزینه ها ")
-
+st.write('tast beravdh')
 session = SessionLocal()
 
 # -------------------------
